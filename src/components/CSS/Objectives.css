@@ -1,0 +1,61 @@
+.objectives{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.objectives_header{
+    color: rgb(18, 15, 189);
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 350px;
+    align-self: flex-start;
+    margin: 4%;
+    box-shadow: 0 1rem 2rem rgba(73, 73, 73, 0.596);
+    z-index: 2;
+    flex: 0 0 270px;
+}
+
+.card_img{
+    width: 35%;
+    left: 50%;
+    top: 10%;
+    transform: translate(90%, 20%)
+}
+
+.card_header{
+    font-size: 18px;
+    margin: 15%;
+    text-align: center;
+}
+
+.card_words{
+    font-size: 14px;
+    margin: 10%;
+    margin-top: 0;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.card-1{
+    background-color: white;
+    color: rgb(18, 15, 189);
+}
+
+.card-2{
+    background-color: rgb(18, 15, 189);
+    color: white;
+}
+
+.card-3{
+    background-color: white;
+    color: rgb(18, 15, 189);
+}

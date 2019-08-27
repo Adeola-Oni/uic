@@ -1,0 +1,33 @@
+.Footer{
+    background-color: rgb(18, 15,189);
+    color: white;
+    height: 30vh;
+    
+}
+
+.Footer_img{
+    /* width: 30%;
+    margin-right: 40%; */
+    width: auto;
+    height: 7vh;
+}
+.Footer_img_li{
+    width: 70%;
+}
+.Footer_Upper{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+hr{
+    background-color: rgb(141, 141, 141);
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.Footer_Upper_li{
+    line-height: 3em;
+}
+
+/* .Footer_img_li{
+    width: 50%;
+} */

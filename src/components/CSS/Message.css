@@ -1,0 +1,126 @@
+
+
+*{
+	box-sizing: border-box;
+}
+
+[class*="col-"]{
+	width: 100%;
+	float: left;
+	padding: 15px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+    background-color: teal;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For larger devices */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
+
+.row{
+    display: block;
+    margin-right: 0;
+}
+
+.Message{
+    margin: 10%;
+    margin-right: 0;
+}
+.Message_words{
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.Message_header{
+    text-align: left;
+    color:rgb(18, 15, 189);
+    padding-bottom: 5%;
+}
+
+.Message_button{
+    background-color: #FF4365;
+    border: 1px solid #FF4365;
+    color: white;
+    padding: 1.2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 2%;
+    border-radius: 5%;
+}
+
+.Message_input{
+    font-size: 0.8rem;
+    padding: 5%;
+    margin-top: 2rem;
+    border-radius: 2px;
+    background-color: white;
+    border: none;
+    border-bottom: 3px solid rgb(18, 15, 189);
+    width: 100%;
+    display: block;
+    box-shadow: 0 1rem 2rem rgb(156, 156, 156);
+}
+
+.Message_input:focus{
+    outline: none;
+    border-bottom: 3px solid rgb(3, 196, 3);
+}
+
+.Message_button{
+    background-color: #FF4365;
+    border: 1px solid #FF4365;
+    color: white;
+    padding: 1.2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 5%;
+    border-radius: 5%;
+    box-shadow: 0 1rem 2rem rgb(94, 92, 92);
+    /* background-color: rgb(192, 26, 54);
+    border: 1px solid rgb(192, 26, 54);
+    color: white;
+    padding: 1.2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 20%;
+    border-radius: 5%;
+    box-shadow: 0 1rem 2rem rgb(85, 84, 84); */
+}
+
+/* .sideImg{
+    width: 50%;
+    text-align: right;
+} */
+
+.Vector_img{
+    width: 100%;
+    margin-top: -35%;
+    overflow-x: hidden;
+    margin-left: 25%;
+    height: 100vh;
+}
+
+.image_ontop{
+    width: 50%;
+    margin-top: -100%;
+    margin-left: 35%;
+}
